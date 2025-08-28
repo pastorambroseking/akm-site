@@ -6,15 +6,15 @@
   <title>About — Ambrose King Ministries</title>
   <style>
     body { background:#111; color:#eee; font-family:Arial, sans-serif; margin:0; }
-    header, footer { background:#1e1e1e; }
-    header { padding:20px; text-align:center; }
+    header, footer { background:#1e1e1e; text-align:center; }
+    header { padding:20px; }
     header h1 { margin:0; font-size:32px; color:#FFD700; }
     nav { margin-top:10px; }
     nav a { color:#FFD700; text-decoration:none; margin:0 15px; font-weight:bold; }
     nav a:hover { color:#e6c200; }
-    main { max-width:800px; margin:40px auto; padding:20px; line-height:1.6; }
-    h2 { color:#FFD700; font-size:26px; margin-bottom:15px; }
-    footer { padding:20px; text-align:center; font-size:14px; color:#aaa; margin-top:40px; }
+    main { max-width:800px; margin:40px auto; padding:20px; line-height:1.6; text-align:left; }
+    h2 { color:#FFD700; font-size:26px; margin-bottom:15px; text-align:center; }
+    footer { padding:20px; font-size:14px; color:#aaa; margin-top:40px; }
     footer a { color:#FFD700; text-decoration:none; font-weight:bold; }
     footer a:hover { color:#e6c200; }
   </style>
@@ -25,8 +25,8 @@
     <nav>
       <a href="/index.html">Home</a>
       <a href="/about.html">About</a>
-      <a href="/contact.html">Contact</a>
       <a href="/ministries.html">Ministries</a>
+      <a href="/contact.html">Contact</a>
     </nav>
   </header>
 
@@ -41,8 +41,8 @@
     <p>
       <a href="/index.html">Home</a> •
       <a href="/about.html">About</a> •
-      <a href="/contact.html">Contact</a> •
-      <a href="/ministries.html">Ministries</a>
+      <a href="/ministries.html">Ministries</a> •
+      <a href="/contact.html">Contact</a>
     </p>
     <p>© 2025 Ambrose King Ministries • pastorambrose@ambrosekingministries.org</p>
   </footer>
