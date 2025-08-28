@@ -11,8 +11,8 @@
     <h1 class="text-3xl font-bold">Contact</h1>
     <p class="text-neutral-300 mt-3">Questions, testimonies, or invitations? Send a message below.</p>
 
-    <!-- Replace ACTION_GOES_HERE with your real Formspree endpoint, e.g. https://formspree.io/f/mwkgjkra -->
-    <form action="https://formspree.io/f/xxxxxxx" method="POST" class="mt-8 space-y-4">
+    <!-- Replace YOUR-ENDPOINT with your Formspree endpoint -->
+    <form action="https://formspree.io/f/YOUR-ENDPOINT" method="POST" class="mt-8 space-y-4">
       <div>
         <label class="block text-sm mb-1">Name</label>
         <input name="name" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2" />
@@ -26,10 +26,14 @@
         <textarea name="message" rows="5" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2"></textarea>
       </div>
 
-      <!-- Optional helpers -->
+      <!-- optional helpers -->
       <input type="hidden" name="_subject" value="New message from AKM Contact" />
       <input type="text" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
-      <button class="px-4 py-2 rounded-xl bg-yellow-500 text-black font-semibold">Send Message</button>
+
+      <!-- ✅ Corrected button -->
+      <button type="submit" class="px-4 py-2 rounded-xl bg-yellow-500 text-black font-semibold">
+        Send Message
+      </button>
     </form>
 
     <div class="mt-8 text-sm text-neutral-400">
