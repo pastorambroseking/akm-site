@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About — Ambrose King Ministries</title>
   <style>
-    body { background:#111; color:#eee; font-family:Arial, sans-serif; margin:0; }
-    header, footer { background:#1e1e1e; text-align:center; }
-    header { padding:20px; }
-    header h1 { margin:0; font-size:32px; color:#FFD700; }
-    nav { margin-top:10px; }
-    nav a { color:#FFD700; text-decoration:none; margin:0 15px; font-weight:bold; }
-    nav a:hover { color:#e6c200; }
-    main { max-width:800px; margin:40px auto; padding:20px; line-height:1.6; text-align:left; }
-    h2 { color:#FFD700; font-size:26px; margin-bottom:15px; text-align:center; }
-    footer { padding:20px; font-size:14px; color:#aaa; margin-top:40px; }
-    footer a { color:#FFD700; text-decoration:none; font-weight:bold; }
-    footer a:hover { color:#e6c200; }
+    body{background:#111;color:#eee;font-family:Arial,sans-serif;margin:0}
+    header,footer{background:#1e1e1e;text-align:center} header{padding:20px}
+    header h1{margin:0;font-size:32px;color:#FFD700}
+    nav{margin-top:10px} nav a{color:#FFD700;text-decoration:none;margin:0 15px;font-weight:bold}
+    nav a:hover{color:#e6c200}
+    main{max-width:800px;margin:40px auto;padding:20px;line-height:1.6}
+    h2{color:#FFD700;font-size:26px;margin-bottom:15px;text-align:center}
+    footer{padding:20px;font-size:14px;color:#aaa;margin-top:40px}
+    footer a{color:#FFD700;text-decoration:none;font-weight:bold} footer a:hover{color:#e6c200}
   </style>
 </head>
 <body>
@@ -33,17 +29,12 @@
   <main>
     <h2>About Us</h2>
     <p>Ambrose King Ministries is dedicated to spreading the message of the Kingdom, teaching the Word of God with clarity, and empowering believers to live victorious lives in Christ.</p>
-    <p>Founded by <strong>Pastor Ambrose King Snr</strong>, this ministry combines preaching, teaching, outreach, and community service to impact lives both locally and globally.</p>
-    <p>Our heart is to demonstrate the love of Christ through practical service — from supporting the homeless and orphans, to mentoring believers in their spiritual journey, to equipping men and women to live with Kingdom authority.</p>
+    <p>Founded by <strong>Pastor Ambrose King Snr</strong>, the ministry combines preaching, teaching, outreach, and community service to impact lives locally and globally.</p>
+    <p>We demonstrate the love of Christ through practical service — supporting the homeless and orphans, mentoring believers, and equipping men and women to live with Kingdom authority.</p>
   </main>
 
   <footer>
-    <p>
-      <a href="/index.html">Home</a> •
-      <a href="/about.html">About</a> •
-      <a href="/ministries.html">Ministries</a> •
-      <a href="/contact.html">Contact</a>
-    </p>
+    <p><a href="/index.html">Home</a> • <a href="/about.html">About</a> • <a href="/ministries.html">Ministries</a> • <a href="/contact.html">Contact</a></p>
     <p>© 2025 Ambrose King Ministries • pastorambrose@ambrosekingministries.org</p>
   </footer>
 </body>
