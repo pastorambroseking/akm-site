@@ -10,26 +10,27 @@
   <main class="max-w-3xl mx-auto px-4 py-12">
     <h1 class="text-3xl font-bold">Contact</h1>
     <p class="text-neutral-300 mt-3">Questions, testimonies, or invitations? Send a message below.</p>
-    <form action="https://formspree.io/f/PUT-YOUR-CODE-HERE" method="POST" class="mt-8 space-y-4">
-  <div>
-    <label class="block text-sm mb-1">Name</label>
-    <input name="name" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2" />
-  </div>
-  <div>
-    <label class="block text-sm mb-1">Email</label>
-    <input type="email" name="email" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2" />
-  </div>
-  <div>
-    <label class="block text-sm mb-1">Message</label>
-    <textarea name="message" rows="5" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2"></textarea>
-  </div>
 
-  <!-- optional helpers -->
-  <input type="hidden" name="_subject" value="New message from AKM Contact" />
-  <input type="text" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
-  <button class="px-4 py-2 rounded-xl bg-yellow-500 text-black font-semibold">Send Message</button>
-</form>
+    <!-- Replace ACTION_GOES_HERE with your real Formspree endpoint, e.g. https://formspree.io/f/mwkgjkra -->
+    <form action="ACTION_GOES_HERE" method="POST" class="mt-8 space-y-4">
+      <div>
+        <label class="block text-sm mb-1">Name</label>
+        <input name="name" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2" />
+      </div>
+      <div>
+        <label class="block text-sm mb-1">Email</label>
+        <input type="email" name="email" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2" />
+      </div>
+      <div>
+        <label class="block text-sm mb-1">Message</label>
+        <textarea name="message" rows="5" required class="w-full rounded-xl bg-neutral-900 border border-white/10 px-3 py-2"></textarea>
+      </div>
 
+      <!-- Optional helpers -->
+      <input type="hidden" name="_subject" value="New message from AKM Contact" />
+      <input type="text" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <button class="px-4 py-2 rounded-xl bg-yellow-500 text-black font-semibold">Send Message</button>
     </form>
 
     <div class="mt-8 text-sm text-neutral-400">
