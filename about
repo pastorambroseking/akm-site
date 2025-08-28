@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ministries — Ambrose King Ministries</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      color: #FFD700; /* gold */
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #e6c200;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #FFD700;
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    footer {
+      background: #1e1e1e;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ambrose King Ministries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="ministries.html">Ministries</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Ministries</h2>
+
+    <div class="section">
+      <h3>Kingdom Love Outreach</h3>
+      <p>
+        Dedicated to serving the homeless, orphans, widows, and those in need.  
+        We organize food distributions, shelter visits, and evangelism outreach to share the love of Christ in practical ways.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Healing School</h3>
+      <p>
+        A program designed to teach, mentor, and activate believers in divine healing, walking in faith, and demonstrating the power of God.  
+        Students are equipped through classes, activation nights, and hands-on ministry.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Men’s Coaching & Mentorship</h3>
+      <p>
+        Focused on building Kingdom men with purpose, identity, and leadership.  
+        We provide coaching, resources, and accountability to help men lead with Godly authority.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Digital Media & Teaching</h3>
+      <p>
+        Through ebooks, podcasts, YouTube, and social media, we spread the Gospel globally.  
+        Our goal is to reach lives far beyond our physical location with impactful teachings.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Ambrose King Ministries • pastorambrose@ambrosekingministries.org
+  </footer>
+</body>
+</html>
 
