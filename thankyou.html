@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Form Submitted</title>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You — Ambrose King Ministries</title>
+  <style>
+    body{background:#111;color:#eee;font-family:Arial,sans-serif;margin:0;height:100vh;display:flex;align-items:center;justify-content:center}
+    .box{text-align:center;background:#1e1e1e;padding:40px;border-radius:8px;max-width:500px}
+    h1{color:#FFD700;margin-bottom:15px;font-size:32px}
+    a{display:inline-block;padding:12px 20px;background:#FFD700;color:#000;font-weight:bold;text-decoration:none;border-radius:6px}
+    a:hover{background:#e6c200}
+  </style>
 </head>
 <body>
-  <p>Thanks!<br>
-  The form was submitted successfully. Redirecting…</p>
+  <div class="box">
+    <h1>Thanks!</h1>
+    <p>The form was submitted successfully.<br>Redirecting you back...</p>
+    <p><a href="/contact.html">Go back now</a></p>
+  </div>
 
   <script>
-    // Send them back to the page they came from
-    window.location.href = document.referrer;
+    setTimeout(function(){ window.location.href = "/contact.html"; }, 2000);
   </script>
 </body>
 </html>
